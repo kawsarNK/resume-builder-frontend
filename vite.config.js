@@ -7,11 +7,11 @@ export default defineConfig({
     port: 5173,
     proxy: {
       '/api': {
-        target: 'https://resume-builder-backend-3-u10i.onrender.com',
+        target: 'resume-builder-backend-dgu51rgig-kawsarnks-projects.vercel.app',
         changeOrigin: true,
       },
       '/uploads': {
-        target: 'https://resume-builder-backend-3-u10i.onrender.com',
+        target: 'resume-builder-backend-dgu51rgig-kawsarnks-projects.vercel.app',
         changeOrigin: true,
       }
     }
